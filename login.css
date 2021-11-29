@@ -1,6 +1,6 @@
 main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(background/bluebackground.jpg);
+    background-image: url(bluebackground.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
