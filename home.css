@@ -1,0 +1,93 @@
+body {
+    background-image: url(background/bluebackground.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header.home {
+    background-image: url("imagehome/homePage.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    color:azure;
+    text-align: center;
+    font-size: 40px;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94,94,231);
+}
+ul a:visited{
+    color:yellow;
+}
+ul a:active{
+    color:bisque;
+}
+ul a:link{
+    color:blue
+}
+
+li {
+    float:left;
+    width:20%;
+}
+
+li a {
+    display:block;
+    padding-top: 13px;
+    text-decoration: none;
+    color:white;
+    height:50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(59, 50, 25);
+}
+
+footer {
+    font-style: italic;
+    font-size: small;
+    color:white;
+    background-color: rgb(114, 159, 201);
+    text-align: center;
+}
+
+footer a {
+    font-style: italic;
+    font-size: small;
+    color: white;
+}
+
+.welcome {
+    height: 480px;
+    background-color: rgb(120, 194, 228);
+}
+
+img.quote {
+    padding: 0 30px 0 0;
+}
+
+.video {
+    padding-left: 100px;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color: lightblue;
+}
+
+.logo {
+    padding-left: 48.1px;        
+}

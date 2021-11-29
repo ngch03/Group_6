@@ -1,0 +1,147 @@
+form {  
+    align-items: center;
+}
+
+.feed {
+    background-color: rgb(203, 223, 240);
+    width: 600px;
+    color: black;
+    padding: 40px;
+    box-shadow: 5px #00000080;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.feed input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+
+.feed input[type="email"], .feed input[type="tel"]{
+    border: 2px solid red;
+    width: 220px;
+}
+
+textarea {
+    border: 2px solid red;
+    width: 220px;
+    
+}
+
+.feed input[type="submit"] {
+    width: 150px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.feed input[type="email"]:focus, .feed input[type="tel"]:focus {
+    border-color: red;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.feed textarea:focus{
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.feed button:hover {
+    background-color: rgb(89, 0, 255);
+    transition: 0.5s;
+}
+
+.form {
+    padding-left: 280px;
+    padding-top: 30px;
+}
+
+.float {
+    float: left;
+    width: 450px;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: rgb(114, 159, 201);
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#wrapper {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(background/bluebackground.jpg);
+}
+
+#inside {
+    background-color: lightblue;
+}
+
+div h2 {
+    padding-left: 10px;
+}
+
+li {
+    float:left;
+    width:20%;
+}
+
+li a {
+    display:block;
+    padding-top: 13px;
+    text-decoration: none;
+    color:white;
+    height:60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(59, 50, 25);
+}
+
+header {
+    text-align: center;
+    background-color: rgb(40,21,151);
+    height: 50px;
+}
+
+header h1 {
+    padding-top: 5px;
+    color:papayawhip;
+}
+
+.format {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94,94,231);
+}
+
+ul a:visited{
+    color:yellow;
+}
+ul a:active{
+    color:bisque;
+}
+ul a:link{
+    color:rgb(183, 164, 201);
+}
+button{
+    border-color: red;
+    padding: 10px;
+    width: 100px;
+}

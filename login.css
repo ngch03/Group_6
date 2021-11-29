@@ -1,0 +1,142 @@
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(background/bluebackground.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.login {
+    background-color:lightblue ;
+    width: 600px;
+    color: #050b11;
+    padding: 40px;
+    box-shadow: 10px 10px 25px #655aa380;
+    text-align: center;
+}
+
+.login input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: #03070c;
+}
+
+.login input[type="password"] {
+    border: 2px solid #3498db;
+    width: 220px;
+}
+
+.login input[type="text"] {
+    border: 2px solid #3498db;
+    width: 220px;
+}
+
+.login button[type="onclick"] {
+    width: 150px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus {
+    border-color: #2ecc71;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #2ecc71;
+    transition: 0.5s;
+}
+
+footer {
+    font-style: italic;
+    font-size: 25px;
+    color:white;
+    background-color: rgb(114, 159, 201);
+    clear:left;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer{
+    clear:left;
+}
+
+#wrapper {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inside {
+    background-color: lightblue;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(40,21,151);
+    height: 50px;
+}
+
+.format {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94,94,231);
+}
+
+header h1 {
+    padding-top: 5px;
+    color:papayawhip;
+}
+
+a:hover {
+    background-color: rgb(59, 50, 25);
+}
+
+ul a:visited{
+    color:yellow;
+}
+ul a:active{
+    color:bisque;
+}
+ul a:link{
+    color:rgb(183, 164, 201);
+}
+
+li a {
+    display:block;
+    padding-top: 13px;
+    text-decoration: none;
+    color:white;
+    height:60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+li {
+    float:left;
+    width:20%;
+}
+
+#inside {
+    background-color: lightblue;
+}
+button{
+    width: 150px;
+    border: 2px solid #012510;
+    cursor: pointer;
+    border-color:  #652ecc;
+    border-radius: 15px;
+    padding:20px
+}

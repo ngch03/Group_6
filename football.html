@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <bold><title>Football Accessories</title></bold>
+        <meta charset="UTF-8">
+        <html lang="en">
+        <link rel="stylesheet" href="format.css">
+        <script>
+            function myfunc(item){
+                alert("Are you sure you want to purchase" +" "+ item + "?");
+            }
+            function myfunc1(){
+                alert("Add to cart successfully");
+            }
+        </script>
+    </head>
+
+    <body class="wrapper">
+        <section>
+
+        <header>
+            <h1>Football Accessories</h1>
+        </header>
+        
+        <nav>
+        <ul class="format">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="login_page.html">Login</a></li>  
+            <li><a href="registration.html">Register</a></li> 
+            <li><a href="contactus.html">Contact Us</a></li>    
+            <li><a href="football.html">Football</a></li>
+            <li><a href="basketball.html">Basketball</a></li>
+            <li><a href="badminton.html">Badminton</a></li>
+            <li><a href="baseball.html">Baseball</a></li>
+            <li><a href="gym.html">Gym</a></li>      
+        </ul>
+        </nav>
+        <main>
+            <div class="float">
+                <h3>NIKE Keeper Glove</h3>
+                <a href="imagefoot/KeeperGloveFront.jpg"><img src="imagefoot/KeeperGloveFront.jpg" width="130" ></a>&nbsp;&nbsp;
+                <a href="imagefoot/KeeperGloveBack.jpg"><img src="imagefoot/KeeperGloveBack.jpg" width="130" ></a>
+                <hr><h4>RM129</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > Soft padding provides cushioning against shots<br>
+                    > Smooth surface gives you grip in wet or dry conditions<br>
+                    > Hand wash<br>
+                    > 40% polyester, 33% latex, 21% EVA, 6% nylon<br>
+                    > Imported<br> 
+                    > No Warranty*<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <label><b>color</b></label>
+                <input list="colors" name="color"id="color" >
+                <datalist id="colors">
+                <option value="Black">
+                <option value="White">
+                </datalist>
+                <br><br>
+                <button onclick="myfunc('NIKE Keeper GLove')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+            
+            <div class="float">
+                <h3>ADIDAS Starlancer Club Ball</h3>
+                <a href="imagefoot/footballFront.jpg"><img src="imagefoot/footballFront.jpg" width="130" height="142"></a>&nbsp;&nbsp;
+                <a href="imagefoot/footballBack.jpg"><img src="imagefoot/footballBack.jpg" width="130" height="142"></a><br><br>
+                <hr><h4>RM59</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > 100% TPU cover<br>
+                    > Butyl bladder<br>
+                    > Machine-stitched surface<br>
+                    > Training ball<br>
+                    > Film<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <label><b>color:</b></label>
+                <input list="colors" name="color"id="color" >
+                <br><br>
+                <button onclick="myfunc('ADIDAS Starlancer Club Ball')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+
+            <div class="float">
+                <h3>ADIDAS Tiro Club Shin Guards</h3>
+                <a href="imagefoot/shinGuardsBlack.jpg"><img src="imagefoot/shinGuardsBlack.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/shinGuardsWhite.jpg"><img src="imagefoot/shinGuardsWhite.jpg" width="130"></a>
+                <hr><h4>RM39</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > Shell: 100% polypropylene injection moulded<br>
+                    > Padding: 60% EVA, 35% nylon, 5% resin foam<br>
+                    > Lightweight football shin guards<br>
+                    > Hard shield<br>
+                    > Breathable perforated backing foam<br>
+                    > No Warranty*<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <label><b>color:</b></label>
+                <input list="colors" name="color"id="color" >
+                <br><br>
+                <button onclick="myfunc('ADIDAS Tiro Club Shin Guards')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+                
+            <div class="float">
+                <h3>ADIDAS Tiro Primegreen Duffel Bag</h3>
+                <a href="imagefoot/bag1.jpg"><img src="imagefoot/bag1.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/bag2.jpg"><img src="imagefoot/bag2.jpg" width="130"></a>
+                <hr><h4>RM149</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > Dimensions: 60 cm x 29 cm x 29 cm<br>
+                    > Volume: 39.5 L<br>
+                    > 100% recycled polyester plain weave<br>
+                    > Separate shoe compartment<br>
+                    > Mesh panel for breathability<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <label><b>color:</b></label>
+                <input list="colors" name="color"id="color" >
+                <br><br>
+                <button onclick="myfunc('ADIDAS Tiro Primegreen Duffel Bag')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+
+            <div class="float">
+                <h3>ADIDAS Air Pump</h3>
+                <a href="imagefoot/airPump1.jpg"><img src="imagefoot/airPump1.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/airPump2.jpg"><img src="imagefoot/airPump2.jpg" width="130"></a>  
+                <hr><h4>RM39</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > Polypropylene<br>
+                    > Pumps air on upstroke and downstroke<br>
+                    > Includes one needle<br>
+                    > Includes additional air hose<br>
+                    > Injection molded (A&G)<br>
+                    > No Warranty*<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <label><b>color:</b></label>
+                <input list="color p" name="colors"id="colors" >
+                <datalist id="color p">
+                    <option value="Black">
+                    <option value="White">
+                    <option value="Solar Red">
+                </datalist>
+                <br><br>
+                <button onclick="myfunc('ADIDAS Air Pump')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+                
+            <div class="float">
+                <h3>NIKE Water Bottle</h3>
+                <a href="imagefoot/waterBottle1.jpg"><img src="imagefoot/waterBottle1.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/waterBottle2.jpg"><img src="imagefoot/waterBottle2.jpg" width="130"></a>
+                <hr><h4>RM149</h4><br><hr>
+    
+                <p>
+                    Description:<br>
+                    > Perfect for active kids<br>
+                    > Perfect for travel<br>
+                    > Perfect for sports activities<br>
+                    > 73% Other Fibres, 23% Polypropylene, 4% Sisal<br>
+                    > No Warranty*<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <label><b>color:</b></label>
+                <input list="colors" name="color"id="color" >
+                <br><br>
+                <button onclick="myfunc('NIKE Water Bottle')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+
+            <div class="float">
+                <h3>KIPSTA Soccer Cone Pack</h3>
+                <a href="imagefoot/soccerCone1.jpg"><img src="imagefoot/soccerCone1.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/soccerCone2.jpg"><img src="imagefoot/soccerCone2.jpg" width="130"></a>
+                <hr><h4>RM149</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > These large cones are resistant to shots thanks to their supple material.<br>
+                    > Notches on the base for better grip on grass and artificial turf pitches.<br>
+                    > Vary your exercises: the cones are compatible with the Modular marker bars.<br>
+                    > Save time and space: your cones are easy to stack.<br>
+                    > You can see the cones from up to 50 m away thanks to the neon yellow.<br>
+                    > No Warranty*<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <button onclick="myfunc('KIPSTA Soccer Cone Pack')">buy now</button>
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+
+            <div class="float">
+                <h3>KIPSTA Soccer Referee Card</h3>
+                <a href="imagefoot/soccerCard1.jpg"><img src="imagefoot/soccerCard1.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/soccerCard2.jpg"><img src="imagefoot/soccerCard2.jpg" width="130"></a>
+                <hr><h4>RM149</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > This set has 2 cards: yellow and red.<br>
+                    > Bright colors to make cards highly visible.<br>
+                    > Lightweight cards, easy to fit in your pocket.<br>
+                    > No Warranty*<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <button onclick="myfunc('KIPSTA Soccer Referee Card')">buy now</button>       
+                <button onclick="myfunc1()">Add to cart</button>     
+            </div>
+
+            <div class="float">
+                <h3>KIPSTA Soccer Goal</h3>
+                <a href="imagefoot/goal1.jpg"><img src="imagefoot/goal1.jpg" width="130"></a>&nbsp;&nbsp;
+                <a href="imagefoot/goal2.jpg"><img src="imagefoot/goal2.jpg" width="130"></a>
+                <hr><h4>RM149</h4><br>
+                <hr>
+                <p>
+                    Description:<br>
+                    > Resistant to shocks and weather conditions due to its steel structure and shape.<br>
+                    > Stable on all types of surfaces even without stakes.<br>
+                    > Screw and tool free assembly.<br>
+                    > 3 stakes for pitching the goal in the grass.<br>
+                </p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1">
+                <br><br>
+                <button onclick="myfunc('KIPSTA Soccer Goal')">buy now</button> 
+                <button onclick="myfunc1()">Add to cart</button>
+            </div>
+
+            <div class="float">
+                <h3>Watch out this promotion video by NIKE</h3><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8UVyhF1zkxI" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div><hr>
+
+        </main>
+        <div class="footer">
+        <h1 style="color: red;">Free Shipping For Order Above RM100!!<br>
+            100% Satisfaction Guaranteed!<br>
+            <b>1 Year  Manufacturer Warranty For Selected Products*</b><br>
+        </h1>
+        <hr>
+        <audio controls>
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+            
+        <footer>
+            2021 &copy TYN Sport House <br>
+            <a href="mailto:tynsporthouse@gmail.com">tynsporthouse@gmail.com</a>
+        </footer>
+    </section>
+    </body>
+</html>
